@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+     background-image: linear-gradient(to right, #5f2c82, #49a09d);
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.login-box{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.right img{
+    width: 300px;
+}
+.left{
+    width: 300px;
+    text-align: center;
+}
+.left h2{
+    margin-bottom: 20px;
+}
+.left input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+
+    border: none;
+    border-radius: 25px;
+    background: #ddd;
+
+    outline: none;
+}
+
+.left button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 25px;
+
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.left button:hover {
+    background: #45a049;
+}
+
+.forgot {
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.login {
+    margin-top: 30px;
+    font-size: 13px;
+    color: gray;
+}
+
+.error{
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+input.error{
+    border: 2px solid red;
+}
+input.valid{
+    border: 2px solid green;
+}
+.status-msg{
+    margin-top: 10px;
+    color: #45a049;
+}
+
+
+
