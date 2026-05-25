@@ -210,6 +210,8 @@ function resetUI() {
     $('#monthTitle').text('');
 
     $('#dateMessage').text("Select date range to view your diet plan");
+
+     $('#pieContainer').hide().empty();
 }
 
 //todo=>Helper Function:
@@ -310,6 +312,8 @@ function handleApply(picker) {
     );
 
     expandUI();
+
+    $('#pieContainer').fadeIn(400);
 }
 
 //todo=>Rendering all in ready()

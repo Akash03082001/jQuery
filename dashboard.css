@@ -172,15 +172,16 @@ body {
     flex-direction: column;
 }
 
-/* ✅ Push footer to bottom */
-.tableEmp {
+.main-content {
     flex: 1;
 }
+
 
 /* ✅ Sticky footer */
 .footer {
     background-color: #1f2937;
     padding: 10px 0;
+
 }
 
 /* ✅ Reduce footer size */
@@ -239,6 +240,7 @@ body {
 }
 
 #pieContainer{
+    display: none;
     padding-top: 20px;
-height: 300px;
+    height: 300px;
 }
